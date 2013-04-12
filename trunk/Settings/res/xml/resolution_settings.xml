@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/display_settings"
+        xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+        <ListPreference
+                android:key="screen_resolution"
+                android:title="@string/screen_resolution_title"
+                android:summary="@string/screen_resolution_summary"
+                android:entries="@array/screen_resolution_entries"
+                android:entryValues="@array/screen_resolution_entryvalues" />
+
+</PreferenceScreen>

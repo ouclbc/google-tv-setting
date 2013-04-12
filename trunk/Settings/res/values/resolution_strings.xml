@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <add-resource type="string" name="screen_resolution_title" />
+    <add-resource type="string" name="screen_resolution_summary" />
+    <add-resource type="string" name="screen_resolution_summary_auto" />
+
+    <!-- Title for selecting screen resolution. -->
+    <string name="screen_resolution_title">Resolution</string>
+    <!-- Summary for selecting screen resolution. -->
+    <string name="screen_resolution_summary" translatable="false">Select output resolution</string>
+    <!-- Template for auto string. -->
+    <string name="screen_resolution_summary_auto">Auto (<xliff:g id="resolution">%s</xliff:g>x<xliff:g id="resolution">%s</xliff:g>)</string>
+</resources>

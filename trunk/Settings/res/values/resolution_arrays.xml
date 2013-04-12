@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <add-resource type="array" name="screen_resolution_entries" />
+    <add-resource type="array" name="screen_resolution_entryvalues" />
+
+    <!-- Screen resolution settings. Presented as a list dialog to the user to choose the screen resolution. -->
+    <string-array name="screen_resolution_entries">
+        <!-- Choose screen resolution using detected display data. -->
+        <item>Auto</item>
+        <!-- Choose 1280x720 screen resolution. -->
+        <item>1280x720</item>
+        <!-- Choose 1920x1080 screen resolution. -->
+        <item>1920x1080</item>
+    </string-array>
+
+    <!-- Match with screen_resolution_entries. -->
+    <!-- Do not translate. -->
+    <string-array name="screen_resolution_entryvalues" translatable="false">
+        <!-- Do not translate. -->
+        <item>0</item>
+        <!-- Do not translate. -->
+        <item>1</item>
+        <!-- Do not translate. -->
+        <item>2</item>
+    </string-array>
+</resources>
