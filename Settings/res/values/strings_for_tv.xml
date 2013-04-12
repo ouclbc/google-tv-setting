@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="bluetooth_rename_device" product="tv">Rename TV</string>
+  <string name="bluetooth_ask_discovery" product="tv">An app wants to make your TV visible to other Bluetooth devices for <xliff:g id="timeout">%1$d</xliff:g> seconds.</string>
+  <string name="bluetooth_ask_lasting_discovery" product="tv">An app wants to make your TV visible to other Bluetooth devices. You can change this later in Bluetooth settings.</string>
+  <string name="bluetooth_ask_enablement_and_discovery" product="tv">An app wants to turn on Bluetooth and make your TV visible to other devices for <xliff:g id="timeout">%1$d</xliff:g> seconds.</string>
+  <string name="bluetooth_ask_enablement_and_lasting_discovery" product="tv">An app wants to turn on Bluetooth and make your TV visible to other devices. You can change this later in Bluetooth settings.</string>
+  <string name="phone_info_label" product="tv">TV info</string>
+  <string name="roaming_warning_multiuser" product="tv">When you allow data roaming, you may incur significant roaming charges!\n\nThis setting affects all users on this TV.</string>
+  <string name="crypt_keeper_encrypt_title" product="tv">Encrypt TV</string>
+  <string name="crypt_keeper_encrypt_summary" product="tv">
+    Require a numeric PIN or password to decrypt your TV each time you
+    power it on</string>
+  <string name="crypt_keeper_desc" product="tv">
+    You can encrypt your accounts, settings, downloaded apps and their data,
+    media, and other files. Once you encrypt your TV, you need to type a numeric PIN
+    or password to decrypt it each time you power it on. You can\'t decrypt your TV
+    except by performing a factory data reset, erasing all your data.\n\nEncryption takes
+    an hour or more. You must start with a charged battery and keep your TV plugged in
+    until encryption is complete. If you interrupt the encryption process, you will lose
+    some or all of your data.</string>
+  <string name="crypt_keeper_button_text" product="tv">Encrypt TV</string>
+  <string name="crypt_keeper_final_desc" product="tv">
+    The encryption operation is irreversible and if you interrupt it, you\'ll lose data.
+    Encryption takes an hour or more, during which the TV will restart several times.
+    </string>
+  <string name="crypt_keeper_setup_description" product="tv">Wait while your TV
+    is being encrypted. <xliff:g id="percent" example="50">^1</xliff:g>% complete.</string>
+  <string name="crypt_keeper_failed_summary" product="tv">
+      Encryption was interrupted and can\'t complete. As a result, the data on
+      your TV is no longer accessible.
+      \n\n
+      To resume using your TV, you need to perform a factory reset.
+      When you set up your TV after the reset, you\'ll have an opportunity
+      to restore any data that was backed up to your Google Account.
+    </string>
+  <string name="bluetooth_disconnect_pan_nap_profile" product="tv"><xliff:g id="device_name">%1$s</xliff:g> will be disconnected from sharing this TV\'s Internet connection.</string>
+  <string name="nfc_quick_toggle_summary" product="tv">Allow data exchange when the TV touches another device</string>
+  <string name="wifi_skipped_message" product="tv" msgid="6518433975501257341">WARNING: You may incur extra carrier data charges.\n\nTV setup can require significant network activity.</string>
+  <string name="wifi_and_mobile_skipped_message" product="tv" msgid="5647058314212144925">WARNING: The TV won\'t be able to verify that your software is up to date.</string>
+  <string name="wifi_connect_failed_message" product="tv" msgid="2006689630582761529">The TV was unable to connect to this Wi-Fi network.</string>
+  <string name="dock_audio_summary_none" product="tv">TV not docked</string>
+  <string name="dock_not_found_text" product="tv">You need to dock the TV before setting up dock audio.</string>
+  <string name="dock_sounds_enable_summary_on" product="tv">Play sound when inserting or removing TV from dock</string>
+  <string name="dock_sounds_enable_summary_off" product="tv">Don\'t play sound when inserting or removing TV from dock</string>
+  <string name="accelerometer_summary_on" product="tv">Switch orientation automatically when rotating TV</string>
+  <string name="accelerometer_summary_off" product="tv">Switch orientation automatically when rotating TV</string>
+  <string name="sim_lock_on" product="tv">Require PIN to use TV</string>
+  <string name="sim_lock_off" product="tv">Require PIN to use TV</string>
+  <string name="device_info_settings" product="tv">TV status</string>
+  <string name="device_status_summary" product="tv">Status of the battery, network, and other information</string>
+  <string name="status_number" product="tv">MDN</string>
+  <string name="master_clear_summary" product="tv">Erases all data on TV</string>
+  <string name="master_clear_desc" product="tv">"This will erase all data from your TV\'s <b>internal storage</b>, including:\n\n<li>Your Google account</li>\n<li>System and app data and settings</li>\n<li>Downloaded apps</li>"</string>
+  <string name="master_clear_button_text" product="tv">Reset TV</string>
+  <string name="bluetooth_tethering_available_subtext" product="tv">Sharing this TV\'s Internet connection</string>
+  <string name="bluetooth_tethering_device_connected_subtext" product="tv">Sharing this TV\'s Internet connection to 1 device</string>
+  <string name="bluetooth_tethering_devices_connected_subtext" product="tv">Sharing this TV\'s Internet connection to <xliff:g id="connectedDeviceCount">%1$d</xliff:g> devices</string>
+  <string name="bluetooth_tethering_off_subtext" product="tv">Not sharing this TV\'s Internet connection</string>
+  <string name="location_street_level" product="tv">Let apps use GPS on your TV to pinpoint your location</string>
+  <string name="about_settings" product="tv">About TV</string>
+  <string name="install_all_warning" product="tv">Your TV and personal data are more vulnerable to attack by apps
+ from unknown sources. You agree that you are solely responsible for any
+ damage to your TV or loss of data that may result from using
+ these apps.</string>
+  <string name="security_settings_desc" product="tv">This app can access the following on your TV:</string>
+  <string name="security_settings_desc_multi" product="tv">This app can access the following on your TV.
+         In order to improve performance and reduce memory usage, some of these permissions
+         are available to <xliff:g id="base_app_name">%1$s</xliff:g>
+         because it runs in the same process as <xliff:g id="additional_apps_list">%2$s</xliff:g>:</string>
+  <string name="move_app_to_internal" product="tv">Move to TV</string>
+  <string name="runningservicedetails_stop_dlg_text" product="tv">If you stop this service, some
+        features of your TV may stop working correctly until you power it off
+        and then on again.</string>
+  <string name="testing_phone_info" product="tv">TV information</string>
+  <string name="accessibility_service_security_warning_summary" product="tv"><xliff:g id="accessibility_service_name">%1$s</xliff:g> can
+            collect all of the text you type, except passwords. This includes personal data such as credit card
+            numbers. It can also collect data about your interactions with the TV.</string>
+  <string name="power_idle" product="tv">TV idle</string>
+  <string name="usage_type_phone" product="tv">TV</string>
+  <string name="battery_desc_standby" product="tv">Battery used when TV is idle</string>
+  <string name="really_remove_account_message" product="tv">Removing this account will delete all of its messages, contacts, and other data from the TV!</string>
+  <string name="remove_account_failed" product="tv">This account is required by some apps. You can only remove it by resetting the TV to factory defaults (which deletes all your personal data) in Settings &gt; Backup &amp; reset.</string>
+  <string name="data_usage_auto_sync_on_dialog" product="tv">Any changes you make to your accounts on the web will be automatically copied to your TV.\n\nSome accounts may also automatically copy any changes you make on the TV to the web. A Google Account works this way.\n\nTo choose which kinds of information to sync within each account, go to Settings &gt; Accounts.</string>
+  <string name="data_usage_limit_dialog_mobile" product="tv">Your mobile data connection will be disabled when the specified limit is reached.\n\nSince data usage is measured by your TV, and your carrier may account for usage differently, consider using a conservative limit.</string>
+  <string name="data_usage_restrict_background_multiuser" product="tv">If you restrict background mobile data, some apps and services won\'t work unless you\'re connected to a Wi-Fi network.\n\nThis setting affects all users on this TV.</string>
+  <string name="data_usage_total_during_range_mobile" product="tv"><xliff:g id="range" example="Jul 1 - Jul 31">%2$s</xliff:g>: about <xliff:g id="total" example="128KB">%1$s</xliff:g> used, as measured by your TV. Your carrier\'s data usage accounting may differ.</string>
+  <string name="user_cannot_manage_message" product="tv">Only the TV\'s owner can manage users.</string>
+  <string name="user_confirm_remove_self_message" product="tv">You will lose your space and data on this TV. You can\'t undo this action.</string>
+  <string name="user_confirm_remove_message" product="tv">This user\'s space and data will disappear from this TV. You can\'t undo this action.</string>
+  <string name="global_change_warning" product="tv">This setting affects all users on this TV.</string>
+</resources>

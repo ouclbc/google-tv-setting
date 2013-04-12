@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (C) 2011 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<!-- Tutorial dialog layout -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="310dip"
+        android:layout_height="match_parent"
+        android:layout_marginTop="37dip"
+        android:layout_marginLeft="25dip"
+        android:layout_marginBottom="20dip">
+        <TextView
+            android:id="@+id/tutorial_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/tutorial_steps"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <ImageView android:id="@+id/titleDivider"
+            android:layout_width="match_parent"
+            android:layout_height="2dip"
+            android:layout_marginTop="6dip"
+            android:layout_marginBottom="6dip"
+            android:layout_below="@id/tutorial_title"
+            android:scaleType="fitXY"
+            android:gravity="fill_horizontal"
+            android:src="@*android:drawable/divider_strong_holo" />
+        <TextView android:id="@+id/tutorial_steps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/titleDivider"
+            android:singleLine="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:gravity="bottom|right"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <TextView android:id="@+id/tutorial_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/titleDivider"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <ImageView android:id="@+id/tutorial_image"
+            android:layout_width="310dip"
+            android:layout_height="150dip"
+            android:layout_below="@id/tutorial_text"
+            android:layout_marginTop="20dip"
+            android:layout_marginBottom="20dip"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerInside" />
+        <FrameLayout android:id="@+id/tutorial_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tutorial_text" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="25dip"
+            android:orientation="horizontal"
+            android:gravity="left">
+            <Button android:id="@+id/back_button"
+                android:layout_width="155dip"
+                android:layout_height="wrap_content"
+                android:text="@string/tutorial_back" />
+            <Button android:id="@+id/next_button"
+                android:layout_width="155dip"
+                android:layout_height="wrap_content"
+                android:text="@string/tutorial_next" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

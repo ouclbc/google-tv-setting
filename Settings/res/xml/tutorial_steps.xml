@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- List of tutorials for a user. -->
+<steps xmlns:tutorial="http://schemas.android.com/apk/res/com.android.settings">
+    <!-- HC users and above will see this. -->
+    <step
+        tutorial:key="intro_new"
+        tutorial:titleResource="@string/tutorial_intro_title"
+        tutorial:text="@string/tutorial_intro_text"
+        tutorial:modelDependentText="true"
+        tutorial:backgroundImage="@drawable/tour_welcome_bg"
+        tutorial:minSetupVersion="1" />
+    <!-- Upgraders from Eclair will see this. -->
+    <step
+        tutorial:key="intro_upgrade"
+        tutorial:titleResource="@string/tutorial_upgrade_title"
+        tutorial:text="@string/tutorial_upgrade_text"
+        tutorial:modelDependentText="true"
+        tutorial:backgroundImage="@drawable/tour_welcome_bg"
+        tutorial:maxSetupVersion="0" />
+    <step
+        tutorial:key="home"
+        tutorial:text="@string/tutorial_home_text"
+        tutorial:image="@drawable/tour_device_home"
+        tutorial:titleResource="@string/tutorial_home_title"
+        tutorial:backgroundImage="@drawable/tour_home_bg"
+        tutorial:modelDependentText="true"
+        tutorial:tip="true" />
+    <step
+        tutorial:key="alf"
+        tutorial:text="@string/tutorial_tv_movies_text"
+        tutorial:image="@drawable/tour_tv_movies"
+        tutorial:titleResource="@string/tutorial_tv_movies_title"
+        tutorial:backgroundImage="@drawable/tour_tv_movies_bg"
+        tutorial:tip="true" />
+    <!-- Some vendors, who will not have voice enabled, can use an alternate screen with QSB
+         instead of one with Voice Search-->
+    <!-- step
+        tutorial:key="search_tv"
+        tutorial:text="@string/tutorial_search_tv_text"
+        tutorial:image="@drawable/tour_device_search"
+        tutorial:titleResource="@string/tutorial_search_tv_title"
+        tutorial:backgroundImage="@drawable/tour_search_bg"
+        tutorial:tip="true" /-->
+    <step
+        tutorial:key="voice"
+        tutorial:text="@string/tutorial_voice_text"
+        tutorial:image="@drawable/tour_voice"
+        tutorial:titleResource="@string/tutorial_voice_title"
+        tutorial:backgroundImage="@drawable/tour_voice_bg"
+        tutorial:modelDependentText="true"
+        tutorial:tip="true" />
+    <step
+        tutorial:key="menu"
+        tutorial:text="@string/tutorial_menu_text"
+        tutorial:image="@drawable/tour_menu"
+        tutorial:titleResource="@string/tutorial_menu_title"
+        tutorial:backgroundImage="@drawable/tour_menu_bg"
+        tutorial:tip="true" />
+    <step
+        tutorial:key="market"
+        tutorial:text="@string/tutorial_market_text"
+        tutorial:image="@drawable/tour_market"
+        tutorial:titleResource="@string/tutorial_market_title"
+        tutorial:backgroundImage="@drawable/tour_market_bg"
+        tutorial:tip="true" />
+    <!-- Upgraders from Eclair will see this. The key is special cased in TutorialController. -->
+    <!-- step
+        tutorial:key="privacy_confirm"
+        tutorial:titleResource="@string/tutorial_privacy_confirm_title"
+        tutorial:backgroundImage="@drawable/tour_welcome_bg"
+        tutorial:maxSetupVersion="0" /-->
+</steps>

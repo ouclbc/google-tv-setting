@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/staticip"
+    style="@style/network_section"
+    android:visibility="gone">
+
+    <LinearLayout
+        style="@style/network_item" >
+
+        <TextView
+            style="@style/network_item_label"
+            android:text="@string/network_ip_address" />
+
+        <EditText android:id="@+id/ipaddress"
+            style="@style/network_item_content"
+            android:singleLine="true"
+            android:hint="@string/network_ip_address_hint"
+            android:inputType="textNoSuggestions" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/network_item" >
+
+        <TextView
+            style="@style/network_item_label"
+            android:text="@string/network_gateway" />
+
+        <EditText android:id="@+id/gateway"
+            style="@style/network_item_content"
+            android:singleLine="true"
+            android:hint="@string/network_gateway_hint"
+            android:inputType="textNoSuggestions" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/network_item" >
+
+        <TextView
+            style="@style/network_item_label"
+            android:text="@string/network_prefix_length" />
+
+        <EditText android:id="@+id/network_prefix_length"
+            style="@style/network_item_content"
+            android:singleLine="true"
+            android:hint="@string/network_prefix_length_hint"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/network_item" >
+
+        <TextView
+            style="@style/network_item_label"
+            android:text="@string/network_dns1" />
+
+        <EditText android:id="@+id/dns1"
+            style="@style/network_item_content"
+            android:singleLine="true"
+            android:hint="@string/network_dns1_hint"
+            android:inputType="textNoSuggestions" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/network_item" >
+
+        <TextView
+            style="@style/network_item_label"
+            android:text="@string/network_dns2" />
+
+        <EditText android:id="@+id/dns2"
+            style="@style/network_item_content"
+            android:singleLine="true"
+            android:hint="@string/network_dns2_hint"
+            android:inputType="textNoSuggestions" />
+
+    </LinearLayout>
+
+</LinearLayout>

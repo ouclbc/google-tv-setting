@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/network_section">
+
+    <LinearLayout android:id="@+id/proxy_settings_fields"
+        style="@style/network_item"
+        android:visibility="gone">
+
+        <TextView android:id="@+id/proxy_settings_title"
+            style="@style/network_item_label"
+            android:text="@string/proxy_settings_title" />
+
+        <Spinner android:id="@+id/proxy_settings"
+            style="@style/network_item_content"
+            android:prompt="@string/proxy_settings_title"
+            android:entries="@array/wifi_proxy_settings" />
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/proxy_fields"
+            style="@style/network_section"
+            android:visibility="gone">
+        <LinearLayout android:id="@+id/proxy_warning_limited_support"
+            style="@style/network_item">
+            <TextView
+                style="@style/network_item_label_hint"
+                android:text="@string/proxy_warning_limited_support" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/network_item">
+            <TextView
+                style="@style/network_item_label"
+                android:text="@string/proxy_hostname_label" />
+
+            <EditText android:id="@+id/proxy_hostname"
+                style="@style/network_item_content"
+                android:hint="@string/proxy_hostname_hint"
+                android:inputType="textNoSuggestions"
+                android:singleLine="true" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/network_item">
+            <TextView
+                style="@style/network_item_label"
+                android:text="@string/proxy_port_label" />
+
+            <EditText android:id="@+id/proxy_port"
+                style="@style/network_item_content"
+                android:hint="@string/proxy_port_hint"
+                android:inputType="number"
+                android:singleLine="true" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/network_item">
+            <TextView
+                style="@style/network_item_label"
+                android:text="@string/proxy_exclusionlist_label" />
+
+            <EditText android:id="@+id/proxy_exclusionlist"
+                style="@style/network_item_content"
+                android:hint="@string/proxy_exclusionlist_hint"
+                android:inputType="textNoSuggestions"
+                android:singleLine="true" />
+        </LinearLayout>
+
+    </LinearLayout>
+  
+</LinearLayout>
